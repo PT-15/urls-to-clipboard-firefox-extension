@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "url_manager",
+  "version": "0.1",
+
+  "description": "Copies the urls of all open tabs to the clipboard",
+  "icons": {
+    "48": "/icons/url_manager-48.png",
+    "96": "/icons/url_manager-96.png"
+  },
+
+  "background": {
+      "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_title": "Copy URLs",
+    "default_icon": {
+        "16": "icons/url_manager-16.png",
+        "32": "icons/url_manager-32.png"
+    }
+  }
+}
