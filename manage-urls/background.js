@@ -18,7 +18,7 @@ function urlsToClipboard(tabs) {
 
 function getURLs() {
     navigator.clipboard.writeText("This is before getting the tabs");
-    var getTabs = browser.tabs.query({});
+    var getTabs = browser.tabs.query({currentWindow: true});
     getTabs.then(urlsToClipboard, onError);
     navigate.clipboard.writeText("Got back from getting the tabs")
 }
