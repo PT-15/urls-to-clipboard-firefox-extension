@@ -4,6 +4,7 @@
   "version": "1.0",
 
   "description": "Copies the urls of all open tabs to the clipboard",
+  "homepage_url": "https://github.com/PT-15/urls-to-clipboard-firefox-extension",
   "icons": {
     "48": "/icons/url_manager-48.png",
     "96": "/icons/url_manager-96.png"
