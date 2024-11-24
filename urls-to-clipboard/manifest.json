@@ -1,7 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "url_manager",
+  "name": "URLs to Clipboard",
   "version": "1.0",
+
+  "browser_specific_settings": {
+      "gecko": {
+          "id": "urls-to-clipboard-c50b3c85b65c183dce8b8655d204e1a6"
+      }
+  },
 
   "description": "Copies the urls of all open tabs to the clipboard",
   "homepage_url": "https://github.com/PT-15/urls-to-clipboard-firefox-extension",
